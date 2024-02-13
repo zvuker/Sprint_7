@@ -1,0 +1,5 @@
+courier\TestCasesLoginCourier.class
+courier\TestCasesCreateCourier.class
+courier\TestCasesDeleteCourier.class
+order\TestCasesCreateOrder.class
+order\TestClassesGetOrders.class
