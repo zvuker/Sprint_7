@@ -3,8 +3,8 @@ org\example\ListOfApiHandlers.class
 org\example\order\Order.class
 org\example\order\OrderAssertions.class
 org\example\courier\CourierAssertions.class
-org\example\apitests\entities\requestentities\Courier.class
 org\example\BaseRequests.class
 org\example\order\OrderRequests.class
 org\example\courier\CourierRequests.class
 org\example\order\OrderResponses.class
+org\example\courier\Courier.class

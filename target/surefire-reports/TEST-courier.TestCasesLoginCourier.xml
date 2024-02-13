@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="courier.TestCasesLoginCourier" time="2.102" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="courier.TestCasesLoginCourier" time="1.709" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="sun.desktop" value="windows"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
     <property name="java.specification.version" value="11"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1251"/>
-    <property name="java.class.path" value="F:\autotest\Sprint_7\target\test-classes;F:\autotest\Sprint_7\target\classes;C:\Users\ПК\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-junit4\2.23.0\allure-junit4-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\ПК\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\ПК\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ПК\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ПК\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ПК\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ПК\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ПК\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ПК\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ПК\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\ПК\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\ПК\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\ПК\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ПК\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="java.class.path" value="F:\autotest\Sprint_7\target\test-classes;F:\autotest\Sprint_7\target\classes;C:\Users\ПК\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-junit4\2.23.0\allure-junit4-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\ПК\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\ПК\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ПК\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ПК\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ПК\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ПК\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ПК\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ПК\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ПК\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\ПК\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\ПК\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\ПК\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ПК\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ПК\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="java.vm.vendor" value="Amazon.com Inc."/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
@@ -18,9 +18,9 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="RU"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Amazon Corretto\jdk11.0.22_7\bin"/>
-    <property name="sun.java.command" value="C:\Users\ПК\AppData\Local\Temp\surefire15203132111804803691\surefirebooter-20240211222141806_3.jar C:\Users\ПК\AppData\Local\Temp\surefire15203132111804803691 2024-02-11T22-21-41_582-jvmRun1 surefire-20240211222141806_1tmp surefire_0-20240211222141806_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\ПК\AppData\Local\Temp\surefire12827955910250490843\surefirebooter-20240213235030104_3.jar C:\Users\ПК\AppData\Local\Temp\surefire12827955910250490843 2024-02-13T23-50-29_883-jvmRun1 surefire-20240213235030104_1tmp surefire_0-20240213235030104_2tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="surefire.test.class.path" value="F:\autotest\Sprint_7\target\test-classes;F:\autotest\Sprint_7\target\classes;C:\Users\ПК\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-junit4\2.23.0\allure-junit4-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\ПК\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\ПК\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ПК\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ПК\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ПК\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ПК\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ПК\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ПК\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ПК\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\ПК\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\ПК\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\ПК\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ПК\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
+    <property name="surefire.test.class.path" value="F:\autotest\Sprint_7\target\test-classes;F:\autotest\Sprint_7\target\classes;C:\Users\ПК\.m2\repository\com\google\code\gson\gson\2.9.0\gson-2.9.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-junit4\2.23.0\allure-junit4-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-java-commons\2.23.0\allure-java-commons-2.23.0.jar;C:\Users\ПК\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-model\2.23.0\allure-model-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-rest-assured\2.23.0\allure-rest-assured-2.23.0.jar;C:\Users\ПК\.m2\repository\io\qameta\allure\allure-attachments\2.23.0\allure-attachments-2.23.0.jar;C:\Users\ПК\.m2\repository\org\freemarker\freemarker\2.3.31\freemarker-2.3.31.jar;C:\Users\ПК\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\ПК\.m2\repository\io\rest-assured\rest-assured\5.3.2\rest-assured-5.3.2.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy\4.0.11\groovy-4.0.11.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy-xml\4.0.11\groovy-xml-4.0.11.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpclient\4.5.13\httpclient-4.5.13.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpcore\4.4.13\httpcore-4.4.13.jar;C:\Users\ПК\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\ПК\.m2\repository\commons-codec\commons-codec\1.11\commons-codec-1.11.jar;C:\Users\ПК\.m2\repository\org\apache\httpcomponents\httpmime\4.5.13\httpmime-4.5.13.jar;C:\Users\ПК\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\ПК\.m2\repository\org\ccil\cowan\tagsoup\tagsoup\1.2.1\tagsoup-1.2.1.jar;C:\Users\ПК\.m2\repository\io\rest-assured\json-path\5.3.2\json-path-5.3.2.jar;C:\Users\ПК\.m2\repository\org\apache\groovy\groovy-json\4.0.11\groovy-json-4.0.11.jar;C:\Users\ПК\.m2\repository\io\rest-assured\rest-assured-common\5.3.2\rest-assured-common-5.3.2.jar;C:\Users\ПК\.m2\repository\io\rest-assured\xml-path\5.3.2\xml-path-5.3.2.jar;C:\Users\ПК\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\ПК\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\ПК\.m2\repository\org\projectlombok\lombok\1.18.26\lombok-1.18.26.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\ПК"/>
     <property name="user.language" value="ru"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="C:\Users\ПК\AppData\Local\Temp\surefire15203132111804803691\surefirebooter-20240211222141806_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ПК\AppData\Local\Temp\surefire12827955910250490843\surefirebooter-20240213235030104_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.22+7-LTS"/>
@@ -62,7 +62,7 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="55.0"/>
   </properties>
-  <testcase name="loginCourierWithoutPasword" classname="courier.TestCasesLoginCourier" time="0.403">
+  <testcase name="loginCourierNullData" classname="courier.TestCasesLoginCourier" time="0.269">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -76,45 +76,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "courier_b8b74c7b-81fe-4f84-9cec-1f949d13f3d2",
-    "password": "pass_a3632ba9-6eee-409c-859a-38b13a267e30",
-    "firstName": "name_6ffcdadd-d3f1-4878-ba14-c70d87f89b89"
-}
-Request method:	POST
-Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier/login
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "login": "courier_b8b74c7b-81fe-4f84-9cec-1f949d13f3d2",
-    "password": ""
-}
-]]></system-out>
-  </testcase>
-  <testcase name="loginCourierNullData" classname="courier.TestCasesLoginCourier" time="0.381">
-    <system-out><![CDATA[Request method:	POST
-Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "login": "courier_4f12f62c-3653-4598-be84-7de934b8e0b2",
-    "password": "pass_ea0198a2-4881-4d68-b4af-bc41638a2174",
-    "firstName": "name_0a8941b1-387c-4068-b696-911b64fec7f3"
+    "login": "courier_ea7f31a6-661c-44dc-aa5a-7107988511f7",
+    "password": "pass_2a250adf-1d28-4f66-9153-9c72367160a4",
+    "firstName": "name_eb0a6102-0d79-4305-89a9-f1661c9b54af"
 }
 Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -134,7 +98,7 @@ Body:
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginCourierWithIncorrectPassword" classname="courier.TestCasesLoginCourier" time="0.358">
+  <testcase name="loginCourierWithIncorrectPassword" classname="courier.TestCasesLoginCourier" time="0.3">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -148,9 +112,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "courier_cbbe281f-f1ac-4bc7-91aa-f747bd8c39da",
-    "password": "pass_57ec45ff-eba1-4c97-9ce4-2383fe90fe8b",
-    "firstName": "name_644ee597-2961-4329-ba76-a73966cf36a1"
+    "login": "courier_223a058b-fdbd-493b-bb6b-40c08553a2b9",
+    "password": "pass_7f925176-ccb5-4811-9c6d-e76aa1ccac56",
+    "firstName": "name_f5e586e7-4614-4b12-9ec0-2899b184d65e"
 }
 Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -165,12 +129,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "courier_cbbe281f-f1ac-4bc7-91aa-f747bd8c39da",
-    "password": "pass_57ec45ff-eba1-4c97-9ce4-2383fe90fe8bqwerty"
+    "login": "courier_223a058b-fdbd-493b-bb6b-40c08553a2b9",
+    "password": "pass_7f925176-ccb5-4811-9c6d-e76aa1ccac56incorrect"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginCourierValidData" classname="courier.TestCasesLoginCourier" time="0.307">
+  <testcase name="loginCourierValidData" classname="courier.TestCasesLoginCourier" time="0.282">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -184,9 +148,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "courier_91198d57-4cd2-4f6f-b62b-c9f7517b2c98",
-    "password": "pass_3e6fb45b-f087-4e3c-b17c-ff8b384e732d",
-    "firstName": "name_45aed693-2ddf-40e2-9c9e-9326d50129f8"
+    "login": "courier_308a04b5-2c69-4c3f-bf47-1f287811fc25",
+    "password": "pass_21509ffe-32bf-4855-9132-ecbcfe7f3d3e",
+    "firstName": "name_9186b282-08ce-4733-a351-39ac7c621724"
 }
 Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -201,12 +165,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "courier_91198d57-4cd2-4f6f-b62b-c9f7517b2c98",
-    "password": "pass_3e6fb45b-f087-4e3c-b17c-ff8b384e732d"
+    "login": "courier_308a04b5-2c69-4c3f-bf47-1f287811fc25",
+    "password": "pass_21509ffe-32bf-4855-9132-ecbcfe7f3d3e"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginCourierWithIncorrectLogin" classname="courier.TestCasesLoginCourier" time="0.334">
+  <testcase name="loginCourierWithIncorrectLogin" classname="courier.TestCasesLoginCourier" time="0.288">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -220,9 +184,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "courier_d1edca7f-1f8f-40cb-8796-c0055218e79f",
-    "password": "pass_5f10a742-2070-4730-941d-53079a66dbd2",
-    "firstName": "name_dd1b36f5-e56d-48d3-8871-5bf341ab60e9"
+    "login": "courier_80ec0a91-a979-42b5-aeb9-5f9126e9209c",
+    "password": "pass_3d9a7c3f-ecfe-4755-9d54-37fb7016e5bc",
+    "firstName": "name_12ac4e77-66e7-4f03-b2cd-fccb06b4fa62"
 }
 Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -237,12 +201,12 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "courier_d1edca7f-1f8f-40cb-8796-c0055218e79fqwerty",
-    "password": "pass_5f10a742-2070-4730-941d-53079a66dbd2"
+    "login": "courier_80ec0a91-a979-42b5-aeb9-5f9126e9209cincorrect",
+    "password": "pass_3d9a7c3f-ecfe-4755-9d54-37fb7016e5bc"
 }
 ]]></system-out>
   </testcase>
-  <testcase name="loginCourierWithoutLogin" classname="courier.TestCasesLoginCourier" time="0.316">
+  <testcase name="loginCourierWithoutLogin" classname="courier.TestCasesLoginCourier" time="0.31">
     <system-out><![CDATA[Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
 Proxy:			<none>
@@ -256,9 +220,9 @@ Cookies:		<none>
 Multiparts:		<none>
 Body:
 {
-    "login": "courier_b495ac0f-dc12-4250-91cb-7ff4ea78c957",
-    "password": "pass_c00c8b4e-63f9-493a-ae97-69ac1a162c9c",
-    "firstName": "name_a88d2187-d788-4e53-938a-70cefd680cab"
+    "login": "courier_dd869b80-8f00-4225-8580-fdb1335660b6",
+    "password": "pass_a43b2bda-a0e7-4109-84b2-8fee58b261f6",
+    "firstName": "name_d261cdb8-a5a6-423c-9147-8e906c5ba0e4"
 }
 Request method:	POST
 Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier/login
@@ -274,7 +238,43 @@ Multiparts:		<none>
 Body:
 {
     "login": "",
-    "password": "pass_c00c8b4e-63f9-493a-ae97-69ac1a162c9c"
+    "password": "pass_a43b2bda-a0e7-4109-84b2-8fee58b261f6"
+}
+]]></system-out>
+  </testcase>
+  <testcase name="loginCourierWithoutPassword" classname="courier.TestCasesLoginCourier" time="0.257">
+    <system-out><![CDATA[Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "courier_db4de021-bc52-4be9-822b-d32ad15cb2a3",
+    "password": "pass_8e38b8e8-d0a7-4519-8948-90053bc83a8a",
+    "firstName": "name_14e4f469-7641-404a-b4b3-53114943405a"
+}
+Request method:	POST
+Request URI:	https://qa-scooter.praktikum-services.ru/api/v1/courier/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "login": "courier_db4de021-bc52-4be9-822b-d32ad15cb2a3",
+    "password": ""
 }
 ]]></system-out>
   </testcase>
